@@ -1,0 +1,11 @@
+<h2 class="text-danger-emphasis">PERSONAJES CON SUBSCRIBE</h2>
+<div class="container">
+  <div  *ngFor="let character of characters">
+      <div class="card">
+        <img src={{character.image}} class="card-img-top" alt="imgcharacter">
+          <div>
+            <h6 class="card-title text-primary">{{character.name}}</h6>
+          </div>
+      </div>
+  </div>
+</div>
